@@ -12,6 +12,8 @@ st.title("🥤 Customize your Smoothie 🥤")
 st.write(
   "  Choose fruits that you want in your custom smoothie "
 )
+cnx=st.connection("snowflake")
+session=cnx.session()
 
 
 
